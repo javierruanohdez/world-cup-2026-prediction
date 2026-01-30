@@ -2,6 +2,7 @@
 
 > *Can we predict the World Cup?*
 > No.
+
 > *Can we build a model that understands modern football, momentum and tournament chaos better than pure odds?*
 > That’s what this project tries to do.
 
@@ -80,12 +81,12 @@ Later rounds are **less predictable** by design.
 
 ```python
 ROUND_VARIANCE = {
-    "group": 12,
-    "play-in": 25,
-    "round_of_16": 35,
-    "quarterfinal": 40,
-    "semifinal": 55,
-    "final": 60
+    "group": 18,
+    "play-in": 30,
+    "round_of_16": 45,
+    "quarterfinal": 55,
+    "semifinal": 70,
+    "final": 85
 }
 ```
 
@@ -110,20 +111,20 @@ We introduce a **Modern Football Strength** bonus:
 
 ```python
 MODERN_TEAMS = {
-    "Argentina": 30,
-    "Spain": 26,
-    "France": 24,
-    "England": 23,
-    "Morocco": 23,
-    "Germany": 21,
-    "Croatia": 20,
-    "Japan": 19,
-    "Netherlands": 19,
-    "Senegal": 18,
-    "Portugal": 18,
-    "Belgium": 16,
-    "Uruguay": 15,
-    "Brazil": 12
+    "Argentina": 6,
+    "Spain": 6,
+    "France": 6,
+    "England": 5,
+    "Morocco": 5,
+    "Portugal": 5,
+    "Germany": 4,
+    "Brazil": 4,
+    "Belgium": 4,
+    "Netherlands": 4,
+    "Croatia": 4,
+    "Japan": 3,
+    "Senegal": 3,
+    "Uruguay": 3
 }
 ```
 
@@ -135,21 +136,21 @@ This is **not arbitrary**:
 
 ---
 
-## 📈 Example output (Champion probabilities)
+## 📈 Champion probabilities
 
 After 5,000 simulations:
 
 ```text
-Argentina        19.9%
-France            8.7%
-Spain             6.9%
-England           6.1%
-Morocco           5.8%
-Germany           5.4%
-Portugal          4.5%
-Japan             3.9%
-Netherlands       3.6%
-Brazil            3.2%
+Argentina        16.1%
+Spain            13.1%
+France           12.8%
+Portugal          8.5%
+England           8.4%
+Croatia           5.2%
+Germany           5.0%
+Morocco           4.7%
+Belgium           4.1%
+Brazil            3.0%
 ```
 
 ### 🧐 But betting houses say Spain is favourite…
@@ -169,8 +170,9 @@ This model asks a different question:
 And the answer consistently leans towards:
 
 * **Argentina**
-* **France**
 * **Spain**
+* **France**
+* **Portugal**
 * **England**
 * **Morocco (dark horse)**
 
