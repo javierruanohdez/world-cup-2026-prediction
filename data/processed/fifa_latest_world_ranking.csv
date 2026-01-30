@@ -1,0 +1,65 @@
+date,country,rank,previous_rank,total_points,previous_points,flagUrl,countryUrl,conf
+2026-01-19,Spain,1,1,1877.18,1877.18,https://api.fifa.com/api/v3/picture/flags-sq-2/ESP,https://inside.fifa.com/fifa-world-ranking/ESP,UEFA
+2026-01-19,Argentina,2,2,1873.33,1873.33,https://api.fifa.com/api/v3/picture/flags-sq-2/ARG,https://inside.fifa.com/fifa-world-ranking/ARG,CONMEBOL
+2026-01-19,France,3,3,1870,1870,https://api.fifa.com/api/v3/picture/flags-sq-2/FRA,https://inside.fifa.com/fifa-world-ranking/FRA,UEFA
+2026-01-19,England,4,4,1834.12,1834.12,https://api.fifa.com/api/v3/picture/flags-sq-2/ENG,https://inside.fifa.com/fifa-world-ranking/ENG,UEFA
+2026-01-19,Brazil,5,5,1760.46,1760.46,https://api.fifa.com/api/v3/picture/flags-sq-2/BRA,https://inside.fifa.com/fifa-world-ranking/BRA,CONMEBOL
+2026-01-19,Portugal,6,6,1760.38,1760.38,https://api.fifa.com/api/v3/picture/flags-sq-2/POR,https://inside.fifa.com/fifa-world-ranking/POR,UEFA
+2026-01-19,Netherlands,7,7,1756.27,1756.27,https://api.fifa.com/api/v3/picture/flags-sq-2/NED,https://inside.fifa.com/fifa-world-ranking/NED,UEFA
+2026-01-19,Morocco,8,11,1736.57,1716.34,https://api.fifa.com/api/v3/picture/flags-sq-2/MAR,https://inside.fifa.com/fifa-world-ranking/MAR,CAF
+2026-01-19,Belgium,9,8,1730.71,1730.71,https://api.fifa.com/api/v3/picture/flags-sq-2/BEL,https://inside.fifa.com/fifa-world-ranking/BEL,UEFA
+2026-01-19,Germany,10,9,1724.15,1724.15,https://api.fifa.com/api/v3/picture/flags-sq-2/GER,https://inside.fifa.com/fifa-world-ranking/GER,UEFA
+2026-01-19,Croatia,11,10,1716.88,1716.88,https://api.fifa.com/api/v3/picture/flags-sq-2/CRO,https://inside.fifa.com/fifa-world-ranking/CRO,UEFA
+2026-01-19,Senegal,12,19,1706.83,1648.07,https://api.fifa.com/api/v3/picture/flags-sq-2/SEN,https://inside.fifa.com/fifa-world-ranking/SEN,CAF
+2026-01-19,Italy,13,12,1702.06,1702.06,https://api.fifa.com/api/v3/picture/flags-sq-2/ITA,https://inside.fifa.com/fifa-world-ranking/ITA,UEFA
+2026-01-19,Colombia,14,13,1701.3,1701.3,https://api.fifa.com/api/v3/picture/flags-sq-2/COL,https://inside.fifa.com/fifa-world-ranking/COL,CONMEBOL
+2026-01-19,United States,15,14,1681.88,1681.88,https://api.fifa.com/api/v3/picture/flags-sq-2/United States,https://inside.fifa.com/fifa-world-ranking/United States,CONCACAF
+2026-01-19,Mexico,16,15,1675.75,1675.75,https://api.fifa.com/api/v3/picture/flags-sq-2/MEX,https://inside.fifa.com/fifa-world-ranking/MEX,CONCACAF
+2026-01-19,Uruguay,17,16,1672.62,1672.62,https://api.fifa.com/api/v3/picture/flags-sq-2/URU,https://inside.fifa.com/fifa-world-ranking/URU,CONMEBOL
+2026-01-19,Switzerland,18,17,1654.69,1654.69,https://api.fifa.com/api/v3/picture/flags-sq-2/SUI,https://inside.fifa.com/fifa-world-ranking/SUI,UEFA
+2026-01-19,Japan,19,18,1650.12,1650.12,https://api.fifa.com/api/v3/picture/flags-sq-2/JPN,https://inside.fifa.com/fifa-world-ranking/JPN,AFC
+2026-01-19,Iran,20,20,1617.02,1617.02,https://api.fifa.com/api/v3/picture/flags-sq-2/IRN,https://inside.fifa.com/fifa-world-ranking/IRN,AFC
+2026-01-19,Denmark,21,21,1616.75,1616.75,https://api.fifa.com/api/v3/picture/flags-sq-2/DEN,https://inside.fifa.com/fifa-world-ranking/DEN,UEFA
+2026-01-19,South Korea,22,22,1599.45,1599.45,https://api.fifa.com/api/v3/picture/flags-sq-2/KOR,https://inside.fifa.com/fifa-world-ranking/KOR,AFC
+2026-01-19,Ecuador,23,23,1591.73,1591.73,https://api.fifa.com/api/v3/picture/flags-sq-2/ECU,https://inside.fifa.com/fifa-world-ranking/ECU,CONMEBOL
+2026-01-19,Austria,24,24,1585.51,1585.51,https://api.fifa.com/api/v3/picture/flags-sq-2/AUT,https://inside.fifa.com/fifa-world-ranking/AUT,UEFA
+2026-01-19,Turkey,25,25,1582.69,1582.69,https://api.fifa.com/api/v3/picture/flags-sq-2/TUR,https://inside.fifa.com/fifa-world-ranking/TUR,UEFA
+2026-01-19,Australia,27,26,1574.01,1574.01,https://api.fifa.com/api/v3/picture/flags-sq-2/AUS,https://inside.fifa.com/fifa-world-ranking/AUS,AFC
+2026-01-19,Algeria,28,34,1560.91,1517.68,https://api.fifa.com/api/v3/picture/flags-sq-2/ALG,https://inside.fifa.com/fifa-world-ranking/ALG,CAF
+2026-01-19,Canada,29,27,1559.15,1559.15,https://api.fifa.com/api/v3/picture/flags-sq-2/CAN,https://inside.fifa.com/fifa-world-ranking/CAN,CONCACAF
+2026-01-19,Ukraine,30,28,1557.47,1557.47,https://api.fifa.com/api/v3/picture/flags-sq-2/UKR,https://inside.fifa.com/fifa-world-ranking/UKR,UEFA
+2026-01-19,Egypt,31,35,1556.71,1515.18,https://api.fifa.com/api/v3/picture/flags-sq-2/EGY,https://inside.fifa.com/fifa-world-ranking/EGY,CAF
+2026-01-19,Norway,32,29,1553.14,1553.14,https://api.fifa.com/api/v3/picture/flags-sq-2/NOR,https://inside.fifa.com/fifa-world-ranking/NOR,UEFA
+2026-01-19,Panama,33,30,1539.47,1540.43,https://api.fifa.com/api/v3/picture/flags-sq-2/PAN,https://inside.fifa.com/fifa-world-ranking/PAN,CONCACAF
+2026-01-19,Poland,34,31,1532.04,1532.04,https://api.fifa.com/api/v3/picture/flags-sq-2/POL,https://inside.fifa.com/fifa-world-ranking/POL,UEFA
+2026-01-19,Wales,35,32,1529.71,1529.71,https://api.fifa.com/api/v3/picture/flags-sq-2/WAL,https://inside.fifa.com/fifa-world-ranking/WAL,UEFA
+2026-01-19,Ivory Coast,37,42,1522.48,1489.59,https://api.fifa.com/api/v3/picture/flags-sq-2/CIV,https://inside.fifa.com/fifa-world-ranking/CIV,CAF
+2026-01-19,Scotland,38,36,1506.77,1506.77,https://api.fifa.com/api/v3/picture/flags-sq-2/SCO,https://inside.fifa.com/fifa-world-ranking/SCO,UEFA
+2026-01-19,Paraguay,40,39,1501.5,1501.5,https://api.fifa.com/api/v3/picture/flags-sq-2/PAR,https://inside.fifa.com/fifa-world-ranking/PAR,CONMEBOL
+2026-01-19,Sweden,42,43,1487.13,1487.13,https://api.fifa.com/api/v3/picture/flags-sq-2/SWE,https://inside.fifa.com/fifa-world-ranking/SWE,UEFA
+2026-01-19,Czech Republic,43,44,1487,1487,https://api.fifa.com/api/v3/picture/flags-sq-2/CZE,https://inside.fifa.com/fifa-world-ranking/CZE,UEFA
+2026-01-19,Slovakia,44,45,1485.65,1485.65,https://api.fifa.com/api/v3/picture/flags-sq-2/SVK,https://inside.fifa.com/fifa-world-ranking/SVK,UEFA
+2026-01-19,Tunisia,47,41,1479.04,1494.86,https://api.fifa.com/api/v3/picture/flags-sq-2/TUN,https://inside.fifa.com/fifa-world-ranking/TUN,CAF
+2026-01-19,DR Congo,48,56,1468.22,1444.16,https://api.fifa.com/api/v3/picture/flags-sq-2/COD,https://inside.fifa.com/fifa-world-ranking/COD,CAF
+2026-01-19,Romania,49,47,1465.78,1465.78,https://api.fifa.com/api/v3/picture/flags-sq-2/ROU,https://inside.fifa.com/fifa-world-ranking/ROU,UEFA
+2026-01-19,Uzbekistan,52,50,1462.03,1462.03,https://api.fifa.com/api/v3/picture/flags-sq-2/UZB,https://inside.fifa.com/fifa-world-ranking/UZB,AFC
+2026-01-19,Qatar,56,54,1454.96,1454.96,https://api.fifa.com/api/v3/picture/flags-sq-2/QAT,https://inside.fifa.com/fifa-world-ranking/QAT,AFC
+2026-01-19,Iraq,58,58,1436.94,1436.94,https://api.fifa.com/api/v3/picture/flags-sq-2/IRQ,https://inside.fifa.com/fifa-world-ranking/IRQ,AFC
+2026-01-19,Republic of Ireland,59,59,1436.04,1436.04,https://api.fifa.com/api/v3/picture/flags-sq-2/IRL,https://inside.fifa.com/fifa-world-ranking/IRL,UEFA
+2026-01-19,South Africa,60,61,1432.76,1426.73,https://api.fifa.com/api/v3/picture/flags-sq-2/RSA,https://inside.fifa.com/fifa-world-ranking/RSA,CAF
+2026-01-19,Saudi Arabia,61,60,1429.48,1429.48,https://api.fifa.com/api/v3/picture/flags-sq-2/KSA,https://inside.fifa.com/fifa-world-ranking/KSA,AFC
+2026-01-19,Albania,63,63,1401.07,1401.07,https://api.fifa.com/api/v3/picture/flags-sq-2/ALB,https://inside.fifa.com/fifa-world-ranking/ALB,UEFA
+2026-01-19,Jordan,64,64,1388.93,1388.93,https://api.fifa.com/api/v3/picture/flags-sq-2/JOR,https://inside.fifa.com/fifa-world-ranking/JOR,AFC
+2026-01-19,North Macedonia,66,66,1378.57,1378.57,https://api.fifa.com/api/v3/picture/flags-sq-2/MKD,https://inside.fifa.com/fifa-world-ranking/MKD,UEFA
+2026-01-19,Cape Verde,67,67,1370.49,1370.49,https://api.fifa.com/api/v3/picture/flags-sq-2/CPV,https://inside.fifa.com/fifa-world-ranking/CPV,CAF
+2026-01-19,Northern Ireland,69,69,1366.02,1366.02,https://api.fifa.com/api/v3/picture/flags-sq-2/NIR,https://inside.fifa.com/fifa-world-ranking/NIR,UEFA
+2026-01-19,Jamaica,70,70,1362.46,1362.46,https://api.fifa.com/api/v3/picture/flags-sq-2/JAM,https://inside.fifa.com/fifa-world-ranking/JAM,CONCACAF
+2026-01-19,Bosnia and Herzegovina,71,71,1362.37,1362.37,https://api.fifa.com/api/v3/picture/flags-sq-2/BIH,https://inside.fifa.com/fifa-world-ranking/BIH,UEFA
+2026-01-19,Ghana,72,72,1351.09,1351.09,https://api.fifa.com/api/v3/picture/flags-sq-2/GHA,https://inside.fifa.com/fifa-world-ranking/GHA,CAF
+2026-01-19,Bolivia,76,76,1330.52,1329.56,https://api.fifa.com/api/v3/picture/flags-sq-2/BOL,https://inside.fifa.com/fifa-world-ranking/BOL,CONMEBOL
+2026-01-19,Kosovo,79,80,1308.84,1308.84,https://api.fifa.com/api/v3/picture/flags-sq-2/KOS,https://inside.fifa.com/fifa-world-ranking/KOS,UEFA
+2026-01-19,Curaçao,81,82,1302.7,1302.7,https://api.fifa.com/api/v3/picture/flags-sq-2/CUW,https://inside.fifa.com/fifa-world-ranking/CUW,CONCACAF
+2026-01-19,Haiti,83,84,1294.49,1294.49,https://api.fifa.com/api/v3/picture/flags-sq-2/HAI,https://inside.fifa.com/fifa-world-ranking/HAI,CONCACAF
+2026-01-19,New Zealand,85,87,1279.25,1279.25,https://api.fifa.com/api/v3/picture/flags-sq-2/NZL,https://inside.fifa.com/fifa-world-ranking/NZL,OFC
+2026-01-19,Suriname,123,123,1140.54,1140.54,https://api.fifa.com/api/v3/picture/flags-sq-2/SUR,https://inside.fifa.com/fifa-world-ranking/SUR,CONCACAF
+2026-01-19,New Caledonia,150,150,1042.62,1042.62,https://api.fifa.com/api/v3/picture/flags-sq-2/NCL,https://inside.fifa.com/fifa-world-ranking/NCL,OFC
