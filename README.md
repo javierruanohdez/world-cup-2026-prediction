@@ -67,6 +67,24 @@ Each simulation represents **one possible World Cup universe**.
 
 ---
 
+## 📚 Data sources
+
+This project relies on multiple data sources:
+
+* **Historical international match results**  
+  Obtained from Kaggle  
+  *[International Football Results from 1872 to 2026](https://www.kaggle.com/datasets/martj42/international-football-results-from-1872-to-2017)*
+
+* **FIFA rankings and points over time**  
+  Collected from publicly available *[FIFA ranking](https://inside.fifa.com/es/fifa-world-ranking/men)* data, aggregated historically to approximate team strength evolution across tournaments. 
+
+* **Tournament performance & achievements**
+  Used to reduce historical bias in favor of modern performance.
+
+All datasets were processed and aligned to focus on **modern international football (2000 → present)**, with strong emphasis on **recency and tournament relevance**.
+
+---
+
 ## 🧠 Match model philosophy
 
 A match is decided by:
@@ -167,14 +185,24 @@ This model asks a different question:
 
 > *Which teams are best adapted to modern tournament football under extreme variance?*
 
-And the answer consistently leans towards:
+Across thousands of simulated World Cups, the answer consistently leans towards:
 
-* **Argentina**
-* **Spain**
-* **France**
-* **Portugal**
-* **England**
-* **Morocco (dark horse)**
+* **Argentina** — tournament maturity, adaptability, and resilience  
+* **Spain** — structural continuity and tactical control  
+* **France** — depth, athleticism, and knockout efficiency  
+* **England** — modern systems finally matching elite talent  
+* **Morocco (dark horse)** — defensive structure, cohesion, and recent overperformance
+
+---
+
+## 🔍 A revealing real-world test: the Finalissima
+
+An upcoming **Finalissima between Spain and Argentina** will be particularly revealing.
+
+It brings together the **two most consistently favored teams in the simulation**.
+
+While a single match proves nothing, this clash reflects exactly what the model highlights:
+**modern football is no longer about raw talent alone, but about systems, adaptability, and execution under pressure.**
 
 ---
 
@@ -268,3 +296,7 @@ If it doesn’t — that’s football.
 ## ⚽ Because in the end…
 
 > *The ball is round, the match lasts 90 minutes, and anything can happen.*
+
+Models can guide us.  
+History can inform us.  
+But once the initial whistle blows, football belongs to chaos.
