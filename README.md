@@ -67,6 +67,87 @@ Each simulation represents **one possible World Cup universe**.
 
 ---
 
+## 🛠️ Installation & Use
+
+This project is designed to be **fully reproducible** and easy to explore locally.
+
+### 🔧 Requirements
+
+* Python **3.10**
+* `pip`
+* Virtual environment support (`venv`)
+
+---
+
+### 📦 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/world-cup-2026-simulation.git
+cd world-cup-2026-simulation
+```
+
+Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate   # macOS / Linux
+venv\Scripts\activate      # Windows
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### ▶️ How to use the project
+
+The project is organized as a **notebook-based pipeline**, where each notebook builds on the previous one:
+
+```text
+notebooks/
+├── 01_raw_data_inspection.ipynb
+├── 02_feature_engineering.ipynb
+├── 03_modeling.ipynb
+├── 04_world_cup_2026_simulation.ipynb
+└── 05_results_and_insights.ipynb
+```
+
+Run the notebooks **in order** to reproduce the full analysis:
+
+1. **Data preparation**
+   Cleans and aligns historical match data and rankings.
+
+2. **Feature engineering**
+   Builds team-level and match-level features.
+
+3. **Match model training**
+   Trains the Gradient Boosting match outcome model.
+
+4. **Tournament simulation**
+   Runs thousands of World Cup simulations under the 2026 format.
+
+5. **Results & insights**
+   Generates visualizations, comparisons with betting markets, and conclusions.
+
+---
+
+### 🧪 Reproducibility notes
+
+* All library versions are **explicitly pinned**
+* Random seeds are fixed where applicable
+* Results may still vary slightly due to:
+
+  * Monte Carlo randomness
+  * Floating-point behavior across systems
+
+This is intentional: **variance is part of the model philosophy**.
+
+---
 ## 📚 Data sources
 
 This project relies on multiple data sources:
@@ -158,20 +239,11 @@ This is **not arbitrary**:
 
 After 5,000 simulations:
 
-```text
-Argentina        16.1%
-Spain            13.1%
-France           12.8%
-Portugal          8.5%
-England           8.4%
-Croatia           5.2%
-Germany           5.0%
-Morocco           4.7%
-Belgium           4.1%
-Brazil            3.0%
-```
+![Top 15 Teams](simulation_results/top15_probabilities.png)
 
 ### 🧐 But betting houses say Spain is favourite…
+
+![Model vs. Market](simulation_results/model_vs_market_top10.png)
 
 Yes — and that’s **exactly the point**.
 
