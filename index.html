@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monte Carlo Simulation: FIFA World Cup 2026 Prediction</title>
+    
+    <!-- Redirección automática después de 2 segundos -->
+    <meta http-equiv="refresh" content="2; url=world_cup_2026_prediction_report.pdf">
+    
+    <!-- Estilos básicos -->
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            background: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            font-size: 2.2em;
+        }
+        
+        .highlight {
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        
+        p {
+            color: #555;
+            margin-bottom: 25px;
+            font-size: 1.1em;
+        }
+        
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px 0;
+        }
+        
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 15px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .button {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 12px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            font-weight: bold;
+            margin: 10px;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 1em;
+        }
+        
+        .button:hover {
+            background: #2980b9;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+        }
+        
+        .button-secondary {
+            background: #95a5a6;
+        }
+        
+        .button-secondary:hover {
+            background: #7f8c8d;
+        }
+        
+        .link {
+            color: #3498db;
+            text-decoration: none;
+        }
+        
+        .link:hover {
+            text-decoration: underline;
+        }
+        
+        footer {
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 20px;
+            }
+            
+            .container {
+                padding: 25px;
+            }
+            
+            h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⚽ Monte Carlo Simulation: <span class="highlight">FIFA World Cup 2026</span> Prediction</h1>
+        
+        <p>This work presents a comprehensive Monte Carlo simulation framework for predicting the outcomes of the FIFA World Cup 2026, integrating historical performance, FIFA rankings, recent form, and tactical analysis.</p>
+        
+        <div class="loading">
+            <div class="spinner"></div>
+            <div>Loading PDF document...</div>
+        </div>
+        
+        <p>You will be automatically redirected to the PDF in a few seconds.</p>
+        
+        <div>
+            <a href="world_cup_2026_prediction_report.pdf" class="button" target="_blank">📄 Open PDF Now</a>
+            <a href="https://github.com/javierruanohdez/world-cup-2026-prediction" class="button button-secondary" target="_blank">📁 View GitHub Repository</a>
+        </div>
+        
+        <p style="margin-top: 30px; font-size: 0.95em;">
+            <strong>Note:</strong> If you are not redirected automatically, 
+            <a href="world_cup_2026_prediction_report.pdf" class="link">click here to access the PDF directly</a>.
+        </p>
+    </div>
+    
+    <footer>
+        Academic Paper • LaTeX Generated • GitHub Pages Hosted
+    </footer>
+
+    <!-- Script para mostrar tiempo restante -->
+    <script>
+        let seconds = 2;
+        const countdownElement = document.querySelector('.loading div:last-child');
+        
+        const interval = setInterval(() => {
+            seconds--;
+            if (countdownElement) {
+                countdownElement.textContent = `Redirecting in ${seconds} second${seconds !== 1 ? 's' : ''}...`;
+            }
+            if (seconds <= 0) {
+                clearInterval(interval);
+            }
+        }, 1000);
+    </script>
+</body>
+</html>
