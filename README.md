@@ -261,9 +261,9 @@ Across thousands of simulated World Cups, the answer consistently leans towards:
 
 * **Argentina** — tournament maturity, adaptability, and resilience  
 * **Spain** — structural continuity and tactical control  
-* **France** — depth, athleticism, and knockout efficiency  
+* **France** — depth, athleticism, and knockout efficiency
+* **Portugal** — elite talent with growing tactical balance
 * **England** — modern systems finally matching elite talent  
-* **Morocco (dark horse)** — defensive structure, cohesion, and recent overperformance
 
 ---
 
