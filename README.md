@@ -269,6 +269,8 @@ Across thousands of simulated World Cups, the answer consistently leans towards:
 
 ## 🔍 A revealing real-world test: the Finalissima
 
+![The Finalissima](assets/finalissima_poster.png)
+
 An upcoming **Finalissima between Spain and Argentina** will be particularly revealing.
 
 It brings together the **two most consistently favored teams in the simulation**.
