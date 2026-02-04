@@ -1,2 +1,10 @@
 # Force Python language for Jupyter notebooks
 *.ipynb linguist-language=Python
+
+# Mark HTML files as vendored/auxiliary code
+# (used only as supporting material, not core project code)
+*.html linguist-vendored
+
+# Mark LaTeX files as vendored/auxiliary content
+# so they don’t affect the main language statistics
+*.tex linguist-vendored
