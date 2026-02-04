@@ -1,4 +1,4 @@
-# ⚽ World Cup 2026 Prediction — Monte Carlo meets modern football
+# ⚽ World Cup 2026 Prediction — [Monte Carlo meets modern football](world_cup_2026_prediction_report.pdf)
 
 > *Can we predict the World Cup?*
 > No.
