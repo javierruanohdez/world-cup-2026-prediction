@@ -6,6 +6,8 @@
 > *Can we build a model that understands modern football, momentum and tournament chaos better than pure odds?*
 > That’s what this project tries to do.
 
+[![Try it online](https://socialistic.ai/api/embed/wc2026-monte-carlo-sim-a8069e?lang=en)](https://socialistic.ai/en/skill/wc2026-monte-carlo-sim-a8069e)
+
 ---
 
 ## 🌍 Project overview
@@ -68,6 +70,8 @@ Each simulation represents **one possible World Cup universe**.
 ---
 
 ## 🛠️ Installation & Use
+
+**Want to skip setup?** [Try it online](https://socialistic.ai/en/skill/wc2026-monte-carlo-sim-a8069e) — pick two teams and get bracket odds instantly, no clone needed.
 
 This project is designed to be **fully reproducible** and easy to explore locally.
 
